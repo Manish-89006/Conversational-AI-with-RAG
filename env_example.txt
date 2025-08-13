@@ -1,0 +1,27 @@
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-3.5-turbo
+
+# Hugging Face Configuration
+HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+HUGGINGFACE_MODEL=meta-llama/Llama-2-7b-chat-hf
+
+# Chroma Configuration
+CHROMA_PERSIST_DIRECTORY=./chroma_db
+CHROMA_COLLECTION_NAME=documents
+
+# Application Configuration
+HOST=0.0.0.0
+PORT=8000
+DEBUG=True
+
+# Embedding Model
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+
+# RAG Configuration
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+TOP_K_RETRIEVAL=5
+TEMPERATURE=0.7
+MAX_TOKENS=1000
+
